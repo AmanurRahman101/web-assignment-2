@@ -1,0 +1,59 @@
+.inter-normal{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* navbar styles*/
+
+.brand{
+
+     font-style: italic;
+     font-size: 36px;
+     font-weight:800 ;
+     color: #E6533C;
+
+
+}
+
+
+.navbar{
+
+    display: flex;
+    margin-inline:190px ;
+   
+    justify-content: space-between;
+}
+
+.nav-links{
+
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-items{
+
+    margin-right: 67px;
+    
+    
+     
+
+}
+
+.nav-link{
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+nav ul{
+ 
+    margin-top: 30px;
+    padding-top: 8px;
+    
+}
+
