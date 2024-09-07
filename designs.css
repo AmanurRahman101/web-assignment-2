@@ -90,7 +90,10 @@ nav>div>ul>li>a:focus{
 nav a{
     color: white;
 }
+
+
 .hamburgar{
+    
     color: white;
     font-size: 3rem;
     display: none;
@@ -389,3 +392,83 @@ h2{
 }
 
 
+.meet-image-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 2rem;
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 1.8rem;
+}
+.trainer-images{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    border-radius: 1.8rem;
+    padding: 20px;
+    justify-content: flex-end;
+}
+.trainer-images-1{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../images/trainer1.png');
+}
+.trainer-images-2{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../images/trainer2.png');
+}
+.trainer-images-3{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../images/trainer3.png');
+}
+.trainer-images-4{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../images/trainer4.png');
+}
+.trainer-images-5{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../images/trainer5.png');
+}
+.trainer-images-6{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.6) 100%), url('../images/trainer6.png');
+}
+
+
+.footer-main-div{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 6rem;
+    padding: 5rem 0;
+}
+footer .logo{
+    font-size: 5rem;
+}
+.linktitle{
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+footer li>a{
+    color: var(--text-secondary-color);
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
+footer li>a:hover{
+    text-decoration: underline;
+}
+hr{
+    border: 0.02rem solid var(--text-secondary-color);
+    opacity: 20%;
+}
+.copy-text{
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem 0;
+}
+.footer-about{
+    grid-column: span 2;
+}
+.footer-links-1{
+    grid-column: span 2;
+}
+.footer-links-1{
+    grid-column: span 2;
+}

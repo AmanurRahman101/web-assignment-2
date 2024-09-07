@@ -1,0 +1,160 @@
+@media screen and (max-width:576px) {
+
+    html{
+        font-size: 50%;
+    }
+    
+    :root{    
+        --primary-color: rgb(255, 99, 0);
+        --secondary-color: rgba(34, 34, 34, 1);
+        --secondary-color-light: rgba(34, 34, 34, 0.6);
+    
+        --text-primary-color: rgba(255, 255, 255, 1);
+        --text-secondary-color: rgba(255, 255, 255, 0.5);
+
+        --container-width: 90%;
+    }
+    
+    section{
+        margin-top: 5rem;
+    }
+    
+    h3{
+        font-size: 2.5rem;
+    }
+    .card-price{
+        font-size: 2.5rem;
+    }
+    .card-price-2{
+        font-size: 2.5rem;
+    }
+
+    nav{
+        padding: 1rem 0;
+    }
+    .hamburgar{
+        display: block;
+    }
+
+    .hero-image-div{
+        width: 90%;
+        height: 70rem;
+    }
+    .upper-div{
+        width: 50%;
+        height: 29%;
+        margin-right: -15px;
+        margin-bottom: 140px;
+    }
+    .lower-div{
+        margin-left: 10px;
+        margin-bottom: 230px;
+        width: 45%;
+        height: 25%;
+    }
+    .video{
+        margin-right: -230px;
+        margin-top: -5px;
+        padding-right: 100px;
+    }
+    .circle{
+        width: 40px;
+        height: 40px;
+        margin-right: 35px;
+        margin-top: -2px;
+        border-radius: 50%;
+        border: 1px solid tomato;
+        background-color: tomato;
+    }
+    .fa-solid{
+        margin-left: 16px;
+        margin-top: 15px;
+    }
+    .cyh-bottom-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .habit-div img{
+        width: 50%;
+        border: 0.8rem rgba(255, 255, 255, 0.1) solid;
+    }
+
+    .tne-img-div-1{
+        grid-column: span 8;
+    }
+    .tne-img-div-2{
+        grid-column: span 12;
+    }
+    .tne-img-div-4{
+        grid-column: span 11;
+    }
+    .tne-img-div-5{
+        grid-column: span 9;
+    }
+    
+    .op-card-div{
+        display: block;
+        padding-bottom: 5rem;
+    }
+    .mpad{
+        padding-right: 3rem;
+    }
+    .card-lr, .card-mid{
+        margin: 5rem 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3rem;
+    }
+    .left-div{
+        border-left: 1px solid var(--text-primary-color);
+        padding-left: 3rem;
+        text-align: left;
+    }
+    .left-div2{
+        border-left: 1px solid var(--secondary-color);
+        padding-left: 3rem;
+        text-align: left;
+    }
+
+    
+
+    .meet-image-div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .trainer-images{
+        height: 27rem;
+    }
+
+
+
+
+    .hero-div,
+    .rem-parent-div,
+    .op-card-div,
+    .bmi-parent-div-2{
+        flex-direction: column;
+    }
+
+
+    .navlink,
+    .tne-img-div-3,
+    .tne-img-div-6{
+        display: none;
+    }
+
+
+    .cyh-text-div,
+    .tne-text-div,
+    .rem-text-div,
+    .bmi-text-div,
+    .bmi-chart-div,
+    .bmi-input-div{
+        width: 100%;
+    }
+
+    .rem-parent-div,
+    .bmi-parent-div-2{
+        gap: 4rem;
+    }
+
+}
